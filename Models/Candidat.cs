@@ -13,7 +13,8 @@ namespace E_Recrutement.Models
         public string Titre { get; set; }
         public string Diplome { get; set; }
         public int NombreAnneeExperience { get; set; }
-        public string CV { get; set; } 
+        public string CV { get; set; }
+        public string Email { get; set; }  // Add this property
     }
 
 }

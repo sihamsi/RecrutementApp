@@ -70,9 +70,14 @@
                                 <strong>Rémunération :</strong> @offre.Remuneration MAD<br />
                             </p>
                             <div class="btn-group">
-                                <a asp-action="Edit" asp-route-id="@offre.Id" class="btn btn-primary">Modifier</a>
-                                <a asp-action="Delete" asp-route-id="@offre.Id" class="btn btn-danger">Supprimer</a>
-                                <a href="#" class="btn btn-outline-primary">Voir les détails</a>
+                                <a asp-action="Details" asp-route-id="@offre.Id" class="btn btn-primary">
+                                    Voir les détails
+                                </a>
+                                @if (User.IsInRole("Recruteur"))
+                                {
+                                    <a asp-action="Edit" asp-route-id="@offre.Id" class="btn btn-warning">Modifier</a>
+                                    <a asp-action="Delete" asp-route-id="@offre.Id" class="btn btn-danger">Supprimer</a>
+                                }
                             </div>
                         </div>
                     </div>

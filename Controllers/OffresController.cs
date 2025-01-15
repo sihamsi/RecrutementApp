@@ -107,6 +107,15 @@ namespace E_Recrutement.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
+        public IActionResult Details(int id)
+        {
+            var offre = _context.Offres.FirstOrDefault(o => o.Id == id);
+            if (offre == null)
+            {
+                return NotFound();
+            }
+            return View(offre);
+        }
 
 
     }

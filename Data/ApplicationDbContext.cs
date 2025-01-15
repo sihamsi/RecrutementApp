@@ -1,14 +1,20 @@
 ﻿using E_Recrutement.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Net.NetworkInformation;
 
 namespace E_Recrutement.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
         public DbSet<Offres> Offres  { get; set; }
         public DbSet<Recruteur> Recruteurs { get; set; }
         public DbSet<Candidat> Candidats { get; set; }
+        public DbSet<Candidature> Candidatures { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) :
        base(options)
         { }

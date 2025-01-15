@@ -1,0 +1,45 @@
+﻿@model E_Recrutement.Models.Offres
+
+@{
+    ViewData["Title"] = "Détails de l'offre";
+}
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h2 class="card-title">@Model.Poste</h2>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <dl class="row">
+                        <dt class="col-sm-4">Secteur</dt>
+                        <dd class="col-sm-8">@Model.Secteur</dd>
+
+                        <dt class="col-sm-4">Type de Contrat</dt>
+                        <dd class="col-sm-8">@Model.TypeContrat</dd>
+
+                        <dt class="col-sm-4">Profil Recherché</dt>
+                        <dd class="col-sm-8">@Model.Profil</dd>
+
+                        <dt class="col-sm-4">Rémunération</dt>
+                        <dd class="col-sm-8">@Model.Remuneration MAD</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                @if (User.IsInRole("Candidat"))
+                {
+                    <form asp-controller="Candidatures" asp-action="Postuler" method="post" class="d-inline">
+                        <input type="hidden" name="offreId" value="@Model.Id" />
+                        <button type="submit" class="btn btn-success">
+                            <i class="fas fa-paper-plane"></i> Postuler
+                        </button>
+                    </form>
+                }
+                <a asp-action="Index" class="btn btn-secondary">Retour à la liste</a>
+            </div>
+        </div>
+    </div>
+</div>
