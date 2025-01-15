@@ -1,0 +1,64 @@
+﻿@model E_Recrutement.Models.Offres
+
+@{
+    ViewData["Title"] = "Créer une Offre";
+}
+
+<h2>Créer une Offre</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="IdRecruteur" class="control-label">ID Recruteur</label>
+        <input asp-for="IdRecruteur" class="form-control" />
+        <span asp-validation-for="IdRecruteur" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TypeContrat" class="control-label">Type de Contrat</label>
+        <select asp-for="TypeContrat" class="form-control">
+            <option value="CDD">CDD</option>
+            <option value="CDI">CDI</option>
+        </select>
+        <span asp-validation-for="TypeContrat" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Secteur" class="control-label">Secteur</label>
+        <input asp-for="Secteur" class="form-control" />
+        <span asp-validation-for="Secteur" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Profil" class="control-label">Profil</label>
+        <select asp-for="Profil" class="form-control">
+            <option value="Deug">Deug</option>
+            <option value="Licence">Licence</option>
+            <option value="Master">Master</option>
+            <option value="Ingénieur">Ingénieur</option>
+        </select>
+        <span asp-validation-for="Profil" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Poste" class="control-label">Poste</label>
+        <input asp-for="Poste" class="form-control" />
+        <span asp-validation-for="Poste" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Remuneration" class="control-label">Rémunération</label>
+        <input asp-for="Remuneration" type="number" class="form-control" />
+        <span asp-validation-for="Remuneration" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Créer" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Annuler</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
