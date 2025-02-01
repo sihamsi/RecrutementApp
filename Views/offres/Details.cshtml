@@ -1,10 +1,25 @@
 ﻿@model E_Recrutement.Models.Offres
+@using System.Security.Claims
 
 @{
     ViewData["Title"] = "Détails de l'offre";
 }
 
 <div class="container mt-4">
+    <!-- Add TempData alerts here -->
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["Error"]
+        </div>
+    }
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["Success"]
+        </div>
+    }
+
     <div class="card">
         <div class="card-header bg-primary text-white">
             <h2 class="card-title">@Model.Poste</h2>
@@ -27,19 +42,25 @@
                     </dl>
                 </div>
             </div>
-
-            <div class="mt-4">
-                @if (User.IsInRole("Candidat"))
+            @if (User.IsInRole("Candidat"))
+            {
+                if (ViewBag.DejaPostule)
                 {
-                    <form asp-controller="Candidatures" asp-action="Postuler" method="post" class="d-inline">
-                        <input type="hidden" name="offreId" value="@Model.Id" />
-                        <button type="submit" class="btn btn-success">
-                            <i class="fas fa-paper-plane"></i> Postuler
+                    <button class="btn btn-secondary" disabled>
+                        🗸 Déjà postulé
+                    </button>
+                }
+                else
+                {
+                    <form asp-controller="Offres" asp-action="Postuler" method="post">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" value="@Model.Id" />
+                        <button type="submit" class="btn btn-primary">
+                            📤 Postuler maintenant
                         </button>
                     </form>
                 }
-                <a asp-action="Index" class="btn btn-secondary">Retour à la liste</a>
-            </div>
+            }
         </div>
     </div>
 </div>

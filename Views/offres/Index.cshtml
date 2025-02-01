@@ -1,91 +1,145 @@
 ﻿@model IEnumerable<Offres>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Offres d'Emploi</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" />
-    <style>
-        .search-bar {
-            margin-bottom: 20px;
-        }
-        .card {
-            margin: 10px 0;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1 class="text-center mt-4">Offres de Stages et Premiers Emplois</h1>
-        <p class="text-center">Trouvez les meilleures opportunités pour débuter votre carrière.</p>
+@{
+    ViewData["Title"] = "Offres d'Emploi";
+}
 
-        <!-- Barre de recherche -->
-        <div class="row search-bar">
-            <form method="get" class="d-flex flex-wrap">
-                <div class="col-md-3 mb-2">
-                    <input type="text" name="searchPoste" class="form-control" placeholder="Intitulé de poste ou mots-clés" />
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold text-primary mb-3">Nos Offres d'Emploi</h1>
+        <p class="lead text-muted">Trouvez l'opportunité qui correspond à vos compétences</p>
+    </div>
+
+    <!-- Barre de recherche améliorée -->
+    <div class="card search-card shadow-lg mb-5 border-0">
+        <div class="card-body p-4">
+            <form method="get" class="row g-3">
+                <div class="col-md-3">
+                    <input type="text" name="searchPoste"
+                           class="form-control form-control-lg search-input"
+                           placeholder="Poste ou mots-clés">
                 </div>
-                <div class="col-md-3 mb-2">
-                    <select name="secteur" class="form-select">
-                        <option value="">Secteur</option>
+                <div class="col-md-2">
+                    <select name="secteur" class="form-select form-select-lg">
+                        <option value="">Tous secteurs</option>
                         <option value="Développement logiciel">Développement logiciel</option>
                         <option value="Analyse de données">Analyse de données</option>
                         <option value="Cybersécurité">Cybersécurité</option>
                     </select>
                 </div>
-                <div class="col-md-3 mb-2">
-                    <select name="profil" class="form-select">
-                        <option value="">Profil</option>
+                <div class="col-md-2">
+                    <select name="profil" class="form-select form-select-lg">
+                        <option value="">Tous profils</option>
                         <option value="Ingénieur">Ingénieur</option>
                         <option value="Master">Master</option>
                         <option value="Licence">Licence</option>
                     </select>
                 </div>
-                <div class="col-md-3 mb-2">
-                    <select name="remuneration" class="form-select">
-                        <option value="">Rémunération</option>
-                        <option value="10000">Moins de 10 000 MAD</option>
-                        <option value="20000">Entre 10 000 et 20 000 MAD</option>
-                        <option value="30000">Plus de 20 000 MAD</option>
+                <div class="col-md-3">
+                    <select name="remuneration" class="form-select form-select-lg">
+                        <option value="">Fourchette salariale</option>
+                        <option value="10000">Moins de 10k MAD</option>
+                        <option value="20000">10k-20k MAD</option>
+                        <option value="30000">Plus de 20k MAD</option>
                     </select>
                 </div>
-                <div class="col-md-12 text-center">
-                    <button type="submit" class="btn btn-primary">Rechercher</button>
+                <div class="col-md-2 d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <i class="fas fa-search me-2"></i>Filtrer
+                    </button>
                 </div>
             </form>
         </div>
+    </div>
 
-        <!-- Liste des offres -->
-        <div class="row">
-            @foreach (var offre in Model)
-            {
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">@offre.Poste</h5>
-                            <p class="card-text">
-                                <strong>Secteur :</strong> @offre.Secteur<br />
-                                <strong>Profil :</strong> @offre.Profil<br />
-                                <strong>Type de contrat :</strong> @offre.TypeContrat<br />
-                                <strong>Rémunération :</strong> @offre.Remuneration MAD<br />
-                            </p>
-                            <div class="btn-group">
-                                <a asp-action="Details" asp-route-id="@offre.Id" class="btn btn-primary">
-                                    Voir les détails
-                                </a>
-                                @if (User.IsInRole("Recruteur"))
-                                {
-                                    <a asp-action="Edit" asp-route-id="@offre.Id" class="btn btn-warning">Modifier</a>
-                                    <a asp-action="Delete" asp-route-id="@offre.Id" class="btn btn-danger">Supprimer</a>
-                                }
+    @if (User.IsInRole("Recruteur"))
+    {
+        <div class="mb-4">
+            <a asp-action="Create" class="btn btn-primary btn-lg">
+                <i class="fas fa-plus-circle me-2"></i>Créer une nouvelle offre
+            </a>
+        </div>
+    }
+
+    <!-- Liste des offres -->
+    <div class="row g-4">
+        @foreach (var offre in Model)
+        {
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 offer-card shadow-sm border-0">
+                    <div class="card-header bg-primary text-white py-3">
+                        <h5 class="card-title mb-0">@offre.Poste</h5>
+                        <small class="text-white-50">@offre.Secteur</small>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex flex-column gap-2">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="fas fa-file-contract text-primary"></i>
+                                <span>@offre.TypeContrat</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="fas fa-user-graduate text-primary"></i>
+                                <span>@offre.Profil</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="fas fa-coins text-primary"></i>
+                                <span>@offre.Remuneration.ToString("N0") MAD</span>
                             </div>
                         </div>
                     </div>
+                    <div class="card-footer bg-transparent border-0 pt-0">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a asp-action="Details" asp-route-id="@offre.Id"
+                               class="btn btn-outline-primary btn-sm">
+                                <i class="fas fa-eye me-2"></i>Détails
+                            </a>
+                            @if (User.IsInRole("Recruteur"))
+                            {
+                                <div class="d-flex gap-2">
+                                    <a asp-action="Edit" asp-route-id="@offre.Id"
+                                       class="btn btn-sm btn-warning">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@offre.Id"
+                                       class="btn btn-sm btn-danger">
+                                        <i class="fas fa-trash"></i>
+                                    </a>
+                                </div>
+                            }
+                        </div>
+                    </div>
                 </div>
-            }
-        </div>
+            </div>
+        }
     </div>
+</div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<style>
+    .search-card {
+        border-radius: 15px;
+        background: rgba(10, 26, 120, 0.03);
+    }
+
+    .search-input {
+        border-radius: 10px;
+        border: 2px solid rgba(10, 26, 120, 0.1);
+    }
+
+    .offer-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 12px;
+    }
+
+        .offer-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(10, 26, 120, 0.1);
+        }
+
+    .card-header {
+        border-radius: 12px 12px 0 0 !important;
+    }
+
+    .btn-outline-primary {
+        border-width: 2px;
+    }
+</style>

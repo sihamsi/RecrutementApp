@@ -1,0 +1,60 @@
+﻿@model E_Recrutement.Models.Candidature
+
+@{
+    var dejaPostule = ViewBag.DejaPostule as bool? ?? false;
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@if (dejaPostule)
+{
+    <div class="alert alert-warning">
+        Vous avez déjà postulé à cette offre
+    </div>
+}
+else
+{
+    <form asp-action="Postuler" id="postulerForm" onsubmit="disableButton()">
+        <input type="hidden" asp-for="IdOffre" />
+
+        <div class="form-group">
+            <label asp-for="Candidat.Nom"></label>
+            <input asp-for="Candidat.Nom" class="form-control" readonly />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Candidat.Prenom"></label>
+            <input asp-for="Candidat.Prenom" class="form-control" readonly />
+        </div>
+
+        <button type="submit" id="submitBtn" class="btn @(dejaPostule ? "btn-secondary" : "btn-primary")"
+        @(dejaPostule ? "disabled" : "")>
+            @(dejaPostule ? "Déjà postulé" : "Postuler maintenant")
+        </button>
+    </form>
+}
+
+@section Scripts {
+    <script>
+        function disableButton() {
+            const btn = document.getElementById('submitBtn');
+            btn.disabled = true;
+            btn.innerHTML = 'Envoi en cours...';
+            btn.classList.remove('btn-primary');
+            btn.classList.add('btn-secondary');
+        }
+
+        // Vérifier l'état au chargement
+        window.onload = function() {
+            if (@dejaPostule.ToString().ToLower()) {
+                const btn = document.getElementById('submitBtn');
+                btn.disabled = true;
+            }
+        };
+    </script>
+}

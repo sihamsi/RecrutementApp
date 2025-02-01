@@ -5,6 +5,8 @@ namespace E_Recrutement.Models
 {
     public class ApplicationUser : IdentityUser
     {
+        internal object IdCandidat;
+
         [Required]
         public string Nom { get; set; }
         public string Adresse { get; set; }

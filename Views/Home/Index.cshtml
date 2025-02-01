@@ -1,8 +1,194 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Accueil - E-Recrutement Pro";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!-- Hero Section -->
+<section class="hero bg-gradient-primary text-white py-5">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <h1 class="display-3 fw-bold mb-4">
+                    Trouvez le talent <br>
+                    <span class="text-warning">ou l'opportunité</span> parfaite
+                </h1>
+                <p class="lead mb-4">
+                    Plateforme de recrutement intelligente connectant les meilleurs talents
+                    avec les entreprises innovantes
+                </p>
+                <div class="d-flex gap-3">
+                    <a href="/Offres" class="btn btn-light btn-lg px-4 py-3">
+                        <i class="fas fa-search me-2"></i>Trouver un emploi
+                    </a>
+                   
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="https://cdn.pixabay.com/photo/2018/03/10/12/00/teamwork-3213924_1280.jpg"
+                     class="img-fluid rounded-3 shadow-lg"
+                     alt="Équipe professionnelle">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-5">
+    <div class="container py-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 p-4">
+                    <div class="card-body text-center">
+                        <div class="icon-lg bg-primary text-white rounded-circle mb-4">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Recrutement Rapide</h3>
+                        <p class="text-muted">Processus optimisé pour des recrutements efficaces</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 p-4">
+                    <div class="card-body text-center">
+                        <div class="icon-lg bg-primary text-white rounded-circle mb-4">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Sécurité des Données</h3>
+                        <p class="text-muted">Protection maximale de vos informations</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 p-4">
+                    <div class="card-body text-center">
+                        <div class="icon-lg bg-primary text-white rounded-circle mb-4">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Analytique Avancée</h3>
+                        <p class="text-muted">Suivi détaillé des performances</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Recent Jobs -->
+<section class="py-5">
+    <div class="container py-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Offres Récentes</h2>
+            <a href="/Offres" class="btn btn-primary">Voir toutes les offres</a>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card job-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-start gap-3">
+                            
+                            <div>
+                                <h5 class="mb-1">Développeur Full Stack</h5>
+                                <div class="text-muted small mb-2">
+                                    <i class="fas fa-map-marker-alt me-2"></i>Casablanca
+                                    <i class="fas fa-euro-sign ms-3 me-2"></i>20k
+                                </div>
+                                <span class="badge bg-primary">CDI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card job-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-start gap-3">
+
+                            <div>
+                                <h5 class="mb-1">Data Analyste </h5>
+                                <div class="text-muted small mb-2">
+                                    <i class="fas fa-map-marker-alt me-2"></i>Rabat
+                                    <i class="fas fa-euro-sign ms-3 me-2"></i>15k
+                                </div>
+                                <span class="badge bg-primary">CDD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card job-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-start gap-3">
+
+                            <div>
+                                <h5 class="mb-1">Développeur Mobile</h5>
+                                <div class="text-muted small mb-2">
+                                    <i class="fas fa-map-marker-alt me-2"></i>Tanger
+                                    <i class="fas fa-euro-sign ms-3 me-2"></i>18k
+                                </div>
+                                <span class="badge bg-primary">CDI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card job-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-start gap-3">
+
+                            <div>
+                                <h5 class="mb-1">Chef de projet IT </h5>
+                                <div class="text-muted small mb-2">
+                                    <i class="fas fa-map-marker-alt me-2"></i>Casablanca
+                                    <i class="fas fa-euro-sign ms-3 me-2"></i>25k
+                                </div>
+                                <span class="badge bg-primary">CDI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .hero {
+        background: linear-gradient(135deg, #0a1a78 0%, #1a2b8a 100%);
+    }
+
+    .icon-lg {
+        width: 70px;
+        height: 70px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .category-card {
+        transition: transform 0.3s ease;
+        background: white;
+    }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            background: var(--bs-primary);
+            color: white !important;
+        }
+
+    .job-card {
+        transition: transform 0.3s ease;
+    }
+
+        .job-card:hover {
+            transform: translateY(-3px);
+        }
+</style>

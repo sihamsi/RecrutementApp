@@ -4,6 +4,7 @@ using E_Recrutement.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace E_Recrutement.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250130112008_Upd")]
+    partial class Upd
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -62,7 +65,7 @@ namespace E_Recrutement.Migrations
 
                     b.HasKey("IdCandidat");
 
-                    b.ToTable("Candidats", (string)null);
+                    b.ToTable("Candidats");
                 });
 
             modelBuilder.Entity("E_Recrutement.Models.Candidature", b =>
@@ -92,7 +95,7 @@ namespace E_Recrutement.Migrations
 
                     b.HasIndex("IdOffre");
 
-                    b.ToTable("Candidatures", (string)null);
+                    b.ToTable("Candidatures");
                 });
 
             modelBuilder.Entity("E_Recrutement.Models.Offres", b =>
@@ -127,7 +130,7 @@ namespace E_Recrutement.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Offres", (string)null);
+                    b.ToTable("Offres");
 
                     b.HasData(
                         new
@@ -204,7 +207,7 @@ namespace E_Recrutement.Migrations
 
                     b.HasKey("IdRecruteur");
 
-                    b.ToTable("Recruteurs", (string)null);
+                    b.ToTable("Recruteurs");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

@@ -1,0 +1,30 @@
+﻿@model IEnumerable<E_Recrutement.Models.Candidature>
+
+<h3>Mes Candidatures</h3>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Offre</th>
+                <th>Date de Postulation</th>
+                <th>Statut</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var candidature in Model)
+            {
+                <tr>
+                    <td>@candidature.Offre.Poste</td>
+                    <td>@candidature.DatePostulation.ToString("dd/MM/yyyy")</td>
+                    <td>@candidature.Statut</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Aucune candidature trouvée.</p>
+}
