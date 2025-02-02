@@ -6,7 +6,6 @@
 }
 
 <div class="container mt-4">
-    <!-- Add TempData alerts here -->
     @if (TempData["Error"] != null)
     {
         <div class="alert alert-danger">
@@ -42,24 +41,11 @@
                     </dl>
                 </div>
             </div>
-            @if (User.IsInRole("Candidat"))
+            @if (User.Identity.IsAuthenticated && User.IsInRole("Candidat"))
             {
-                if (ViewBag.DejaPostule)
-                {
-                    <button class="btn btn-secondary" disabled>
-                        🗸 Déjà postulé
-                    </button>
-                }
-                else
-                {
-                    <form asp-controller="Offres" asp-action="Postuler" method="post">
-                        @Html.AntiForgeryToken()
-                        <input type="hidden" name="id" value="@Model.Id" />
-                        <button type="submit" class="btn btn-primary">
-                            📤 Postuler maintenant
-                        </button>
-                    </form>
-                }
+                <a asp-controller="Candidature" asp-action="Postuler" asp-route-id="@Model.Id" class="btn btn-primary">
+                    Postuler
+                </a>
             }
         </div>
     </div>

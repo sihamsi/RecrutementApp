@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 
 namespace E_Recrutement.Models
 {
@@ -9,6 +9,10 @@ namespace E_Recrutement.Models
     {
         [Key]
         public int IdCandidat { get; set; }
+
+        // Stocke l'ID de l'utilisateur Identity (string)
+        public string AspNetUserId { get; set; }
+
         public string Nom { get; set; }
         public string Prenom { get; set; }
         public int Age { get; set; }
@@ -16,9 +20,12 @@ namespace E_Recrutement.Models
         public string Diplome { get; set; }
         public int NombreAnneeExperience { get; set; }
         public string CV { get; set; }
-        [NotMapped] // This prevents EF from mapping it to the database
+        [NotMapped]
         public IFormFile CVFile { get; set; }
-        public string Email { get; set; }  // Add this property
-    }
+        public string Email { get; set; }
 
+        // Vous pouvez retirer ou adapter IdUser ou Id si nécessaire
+        public string? IdUser { get; internal set; }
+        public string Status { get; set; } = "En attente"; 
+    }
 }

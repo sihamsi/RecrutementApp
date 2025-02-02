@@ -1,4 +1,11 @@
 wwwroot\css\site.css
+wwwroot\cvs\cv_ahmed_benali.pdf
+wwwroot\cvs\cv_fatima_elamrani.pdf
+wwwroot\cvs\cv_karim_tazi.pdf
+wwwroot\cvs\cv_mehdi_idrissi.pdf
+wwwroot\cvs\cv_omar_alaoui.pdf
+wwwroot\cvs\cv_salma_ziani.pdf
+wwwroot\cvs\cv_yasmine_bennani.pdf
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

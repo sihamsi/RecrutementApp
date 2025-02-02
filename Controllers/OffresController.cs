@@ -51,26 +51,21 @@ namespace E_Recrutement.Controllers
 
             return View(query.ToList());
         }
-
-        // GET: Offres/Details/5
-        public IActionResult Details(int id)
+        public async Task<IActionResult> Details(int? id)
         {
-            var offre = _context.Offres.FirstOrDefault(o => o.Id == id);
-            if (offre == null) return NotFound();
-
-            // Ajoutez cette logique
-            var userEmail = User.FindFirst(ClaimTypes.Email)?.Value;
-            var candidat = _context.Candidats.FirstOrDefault(c => c.Email == userEmail);
-            var dejaPostule = false;
-
-            if (candidat != null)
+            if (id == null)
             {
-                dejaPostule = _context.Candidatures
-                    .Any(c => c.IdOffre == id && c.IdCandidat == candidat.IdCandidat);
+                return NotFound();
             }
 
-            ViewBag.DejaPostule = dejaPostule;
-            ViewBag.EstAuthentifie = User.Identity.IsAuthenticated;
+            var offre = await _context.Offres
+                .FirstOrDefaultAsync(o => o.Id == id);
+
+            if (offre == null)
+            {
+                return NotFound();
+            }
+
 
             return View(offre);
         }
@@ -139,68 +134,6 @@ namespace E_Recrutement.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [HttpGet]
-        public IActionResult PostulerForm(int id)
-        {
-            var userEmail = User.FindFirst(ClaimTypes.Email)?.Value;
-            if (string.IsNullOrEmpty(userEmail)) return Unauthorized();
 
-            var candidat = _context.Candidats.FirstOrDefault(c => c.Email == userEmail);
-            if (candidat == null) return View("Error");
-
-            // Vérifier si déjà postulé
-            var dejaPostule = _context.Candidatures
-                .Any(c => c.IdOffre == id && c.IdCandidat == candidat.IdCandidat);
-
-            ViewBag.DejaPostule = dejaPostule;
-            ViewBag.OffreId = id;
-
-            return View(new Candidature
-            {
-                IdOffre = id,
-                Candidat = candidat
-            });
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Postuler(int id)
-        {
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Récupère l'ID du candidat connecté
-
-            var candidature = new Candidature
-            {
-                IdOffre = id,
-                IdCandidat = int.Parse(userId),
-                DatePostulation = DateTime.Now,
-                Statut = "En attente"
-            };
-
-            _context.Candidatures.Add(candidature);
-            await _context.SaveChangesAsync();
-
-            return Ok(new { message = "Candidature envoyée avec succès!" });
-        }
-
-
-
-
-        // GET: MesCandidatures
-        public IActionResult MesCandidatures()
-        {
-            var userEmail = User.FindFirst(ClaimTypes.Email)?.Value;
-            if (string.IsNullOrEmpty(userEmail)) return View(new List<Candidature>());
-
-            var candidatId = _context.Candidats
-                .Where(c => c.Email == userEmail)
-                .Select(c => c.IdCandidat)
-                .FirstOrDefault();
-
-            var applications = _context.Candidatures
-                .Include(c => c.Offre)
-                .Where(c => c.IdCandidat == candidatId)
-                .ToList();
-
-            return View(applications);
-        }
     }
 }

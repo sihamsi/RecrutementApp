@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Candidatures\" />
+    <Folder Include="wwwroot\cvs\" />
   </ItemGroup>
 
 </Project>

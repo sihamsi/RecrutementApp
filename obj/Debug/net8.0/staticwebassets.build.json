@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I6gnqqPhF6+uvRM9yVxlrBKMwhoB9u03KmjV6n3LWQc=",
+  "Hash": "I/ROfkcmYMku/6okfjT4dmt7qytOxmAOwwgQNDzR2Hg=",
   "Source": "E-Recrutement",
   "BasePath": "_content/E-Recrutement",
   "Mode": "Default",
@@ -1338,6 +1338,153 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_ahmed_benali.pdf",
+      "SourceId": "E-Recrutement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\",
+      "BasePath": "_content/E-Recrutement",
+      "RelativePath": "cvs/cv_ahmed_benali#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y7kc42dn8n",
+      "Integrity": "orK7M9xi+EbW4uyGq+wyjQINs9nEHAZc466J/yikCOk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cvs\\cv_ahmed_benali.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_fatima_elamrani.pdf",
+      "SourceId": "E-Recrutement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\",
+      "BasePath": "_content/E-Recrutement",
+      "RelativePath": "cvs/cv_fatima_elamrani#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9z309xlucv",
+      "Integrity": "2076s/8vHfGAVkuWjcJKAlStSjruGl5DbsCchnGB7/M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cvs\\cv_fatima_elamrani.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_karim_tazi.pdf",
+      "SourceId": "E-Recrutement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\",
+      "BasePath": "_content/E-Recrutement",
+      "RelativePath": "cvs/cv_karim_tazi#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y5d44ul0qg",
+      "Integrity": "pic/PzfPJvBy9xihRmbCIgIB+LjXRPrGH1Ng0WS39gI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cvs\\cv_karim_tazi.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_mehdi_idrissi.pdf",
+      "SourceId": "E-Recrutement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\",
+      "BasePath": "_content/E-Recrutement",
+      "RelativePath": "cvs/cv_mehdi_idrissi#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "th8ihutzlx",
+      "Integrity": "f4v/pLo1WZS51ePqzavHtRuMXij27sIYWtgtVOtMnIQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cvs\\cv_mehdi_idrissi.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_omar_alaoui.pdf",
+      "SourceId": "E-Recrutement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\",
+      "BasePath": "_content/E-Recrutement",
+      "RelativePath": "cvs/cv_omar_alaoui#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p6wqi899wf",
+      "Integrity": "j5imMYM3ctaSB1UkeE0FIsjDU0NkSzcqmVY5XNRdL5w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cvs\\cv_omar_alaoui.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_salma_ziani.pdf",
+      "SourceId": "E-Recrutement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\",
+      "BasePath": "_content/E-Recrutement",
+      "RelativePath": "cvs/cv_salma_ziani#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ln68wmmwv7",
+      "Integrity": "sWtywsRL1cNe8oaoHoFsY02cLV49NMVcUH3h5H3ijok=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cvs\\cv_salma_ziani.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_yasmine_bennani.pdf",
+      "SourceId": "E-Recrutement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\",
+      "BasePath": "_content/E-Recrutement",
+      "RelativePath": "cvs/cv_yasmine_bennani#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "allevbtn46",
+      "Integrity": "zn/i7sz0R0onUlSUuWVP8KfPLwrTl31omdoehspEcmE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cvs\\cv_yasmine_bennani.pdf"
     },
     {
       "Identity": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\favicon.ico",
@@ -2684,6 +2831,580 @@
       ]
     },
     {
+      "Route": "cvs/cv_ahmed_benali.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_ahmed_benali.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182495"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"orK7M9xi+EbW4uyGq+wyjQINs9nEHAZc466J/yikCOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:13:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-orK7M9xi+EbW4uyGq+wyjQINs9nEHAZc466J/yikCOk="
+        }
+      ]
+    },
+    {
+      "Route": "cvs/cv_ahmed_benali.y7kc42dn8n.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_ahmed_benali.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182495"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"orK7M9xi+EbW4uyGq+wyjQINs9nEHAZc466J/yikCOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:13:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y7kc42dn8n"
+        },
+        {
+          "Name": "label",
+          "Value": "cvs/cv_ahmed_benali.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-orK7M9xi+EbW4uyGq+wyjQINs9nEHAZc466J/yikCOk="
+        }
+      ]
+    },
+    {
+      "Route": "cvs/cv_fatima_elamrani.9z309xlucv.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_fatima_elamrani.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2076s/8vHfGAVkuWjcJKAlStSjruGl5DbsCchnGB7/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:14:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9z309xlucv"
+        },
+        {
+          "Name": "label",
+          "Value": "cvs/cv_fatima_elamrani.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2076s/8vHfGAVkuWjcJKAlStSjruGl5DbsCchnGB7/M="
+        }
+      ]
+    },
+    {
+      "Route": "cvs/cv_fatima_elamrani.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_fatima_elamrani.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2076s/8vHfGAVkuWjcJKAlStSjruGl5DbsCchnGB7/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:14:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2076s/8vHfGAVkuWjcJKAlStSjruGl5DbsCchnGB7/M="
+        }
+      ]
+    },
+    {
+      "Route": "cvs/cv_karim_tazi.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_karim_tazi.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pic/PzfPJvBy9xihRmbCIgIB+LjXRPrGH1Ng0WS39gI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pic/PzfPJvBy9xihRmbCIgIB+LjXRPrGH1Ng0WS39gI="
+        }
+      ]
+    },
+    {
+      "Route": "cvs/cv_karim_tazi.y5d44ul0qg.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_karim_tazi.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pic/PzfPJvBy9xihRmbCIgIB+LjXRPrGH1Ng0WS39gI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y5d44ul0qg"
+        },
+        {
+          "Name": "label",
+          "Value": "cvs/cv_karim_tazi.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pic/PzfPJvBy9xihRmbCIgIB+LjXRPrGH1Ng0WS39gI="
+        }
+      ]
+    },
+    {
+      "Route": "cvs/cv_mehdi_idrissi.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_mehdi_idrissi.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f4v/pLo1WZS51ePqzavHtRuMXij27sIYWtgtVOtMnIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:18:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f4v/pLo1WZS51ePqzavHtRuMXij27sIYWtgtVOtMnIQ="
+        }
+      ]
+    },
+    {
+      "Route": "cvs/cv_mehdi_idrissi.th8ihutzlx.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_mehdi_idrissi.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f4v/pLo1WZS51ePqzavHtRuMXij27sIYWtgtVOtMnIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:18:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "th8ihutzlx"
+        },
+        {
+          "Name": "label",
+          "Value": "cvs/cv_mehdi_idrissi.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f4v/pLo1WZS51ePqzavHtRuMXij27sIYWtgtVOtMnIQ="
+        }
+      ]
+    },
+    {
+      "Route": "cvs/cv_omar_alaoui.p6wqi899wf.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_omar_alaoui.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j5imMYM3ctaSB1UkeE0FIsjDU0NkSzcqmVY5XNRdL5w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p6wqi899wf"
+        },
+        {
+          "Name": "label",
+          "Value": "cvs/cv_omar_alaoui.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j5imMYM3ctaSB1UkeE0FIsjDU0NkSzcqmVY5XNRdL5w="
+        }
+      ]
+    },
+    {
+      "Route": "cvs/cv_omar_alaoui.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_omar_alaoui.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j5imMYM3ctaSB1UkeE0FIsjDU0NkSzcqmVY5XNRdL5w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j5imMYM3ctaSB1UkeE0FIsjDU0NkSzcqmVY5XNRdL5w="
+        }
+      ]
+    },
+    {
+      "Route": "cvs/cv_salma_ziani.ln68wmmwv7.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_salma_ziani.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182465"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sWtywsRL1cNe8oaoHoFsY02cLV49NMVcUH3h5H3ijok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:17:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ln68wmmwv7"
+        },
+        {
+          "Name": "label",
+          "Value": "cvs/cv_salma_ziani.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sWtywsRL1cNe8oaoHoFsY02cLV49NMVcUH3h5H3ijok="
+        }
+      ]
+    },
+    {
+      "Route": "cvs/cv_salma_ziani.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_salma_ziani.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182465"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sWtywsRL1cNe8oaoHoFsY02cLV49NMVcUH3h5H3ijok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:17:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sWtywsRL1cNe8oaoHoFsY02cLV49NMVcUH3h5H3ijok="
+        }
+      ]
+    },
+    {
+      "Route": "cvs/cv_yasmine_bennani.allevbtn46.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_yasmine_bennani.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zn/i7sz0R0onUlSUuWVP8KfPLwrTl31omdoehspEcmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:15:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "allevbtn46"
+        },
+        {
+          "Name": "label",
+          "Value": "cvs/cv_yasmine_bennani.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zn/i7sz0R0onUlSUuWVP8KfPLwrTl31omdoehspEcmE="
+        }
+      ]
+    },
+    {
+      "Route": "cvs/cv_yasmine_bennani.pdf",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_yasmine_bennani.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zn/i7sz0R0onUlSUuWVP8KfPLwrTl31omdoehspEcmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 21:15:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zn/i7sz0R0onUlSUuWVP8KfPLwrTl31omdoehspEcmE="
+        }
+      ]
+    },
+    {
       "Route": "E-Recrutement.1i3pluljsi.bundle.scp.css",
       "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-Recrutement.bundle.scp.css",
       "Selectors": [],
@@ -2706,7 +3427,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 21:41:56 GMT"
+          "Value": "Sat, 01 Feb 2025 04:14:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2751,7 +3472,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 21:41:56 GMT"
+          "Value": "Sat, 01 Feb 2025 04:14:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2796,7 +3517,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 21:41:56 GMT"
+          "Value": "Sat, 01 Feb 2025 04:14:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2833,7 +3554,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 21:41:56 GMT"
+          "Value": "Sat, 01 Feb 2025 04:14:47 GMT"
         },
         {
           "Name": "Cache-Control",

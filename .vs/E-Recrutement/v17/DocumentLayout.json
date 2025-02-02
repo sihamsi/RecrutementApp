@@ -3,76 +3,144 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\offres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\offres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\controllers\\candidaturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:controllers\\candidaturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\candidat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\candidat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\candidature\\listeoffresexternes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\candidature\\listeoffresexternes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\candidature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\candidature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250202225212_OffreExtViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250202225212_OffreExtViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\controllers\\offrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:controllers\\offrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\offres\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\offres\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\offres\\postuler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\offres\\postuler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\offres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\offres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\recruteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\recruteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\offreexterneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\offreexterneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\offres\\mescandidatures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\offres\\mescandidatures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\candidature\\listeoffresautresrecruteurs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\candidature\\listeoffresautresrecruteurs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\recruteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\recruteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250202222610_OffreViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250202222610_OffreViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\offreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\offreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\candidature\\statistiques.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\candidature\\statistiques.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\controllers\\offrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:controllers\\offrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250202221155_StatistiquesCandidatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250202221155_StatistiquesCandidatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\statistiquescandidatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\statistiquescandidatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\candidature\\mescandidatures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\candidature\\mescandidatures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\candidature\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\candidature\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\migrations\\20250202214815_addstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:migrations\\20250202214815_addstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\candidat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\candidat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\candidature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\candidature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\models\\candidatdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:models\\candidatdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\candidature\\postuler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\candidature\\postuler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\utility\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:utility\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\offres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\offres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\offres\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\offres\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\offres\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\offres\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\migrations\\20250201042116_aspidadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:migrations\\20250201042116_aspidadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -81,10 +149,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\offres\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\offres\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -101,10 +165,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\views\\offres\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:views\\offres\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\utility\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:utility\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\migrations\\20250115145101_fixproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -135,10 +195,6 @@
       "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_super.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\migrations\\20250114161449_addtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:migrations\\20250114161449_addtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -165,6 +221,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\migrations\\20250115092024_updatecandidature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:migrations\\20250115092024_updatecandidature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\migrations\\20250201195853_updatecandidatuserids.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:migrations\\20250201195853_updatecandidatuserids.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\migrations\\20250201121132_candidatup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:migrations\\20250201121132_candidatup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|c:\\users\\hp\\onedrive\\desktop\\sig cours\\2emeannee\\.net\\e-recrutement\\migrations\\20250201040305_addcandidaturetab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B35ABA-D3FF-4B6E-BD9D-09CC40D2358D}|E-Recrutement.csproj|solutionrelative:migrations\\20250201040305_addcandidaturetab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -174,7 +242,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -186,159 +254,280 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Recruteur.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\Recruteur.cs",
-              "RelativeDocumentMoniker": "Models\\Recruteur.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\Recruteur.cs",
-              "RelativeToolTip": "Models\\Recruteur.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "20250202225212_OffreExtViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250202225212_OffreExtViewModel.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250202225212_OffreExtViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250202225212_OffreExtViewModel.cs",
+              "RelativeToolTip": "Migrations\\20250202225212_OffreExtViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T14:49:41.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Candidat.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\Candidat.cs",
-              "RelativeDocumentMoniker": "Models\\Candidat.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\Candidat.cs",
-              "RelativeToolTip": "Models\\Candidat.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA6wBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T14:50:23.778Z",
+              "WhenOpened": "2025-02-02T22:52:13.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "OffreExterneViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\OffreExterneViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\OffreExterneViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\OffreExterneViewModel.cs",
+              "RelativeToolTip": "Models\\OffreExterneViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T22:51:26.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CandidatureController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Controllers\\CandidatureController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CandidatureController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Controllers\\CandidatureController.cs",
+              "RelativeToolTip": "Controllers\\CandidatureController.cs",
+              "ViewState": "AgIAAIwBAAAAAAAAAAAAwKABAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T03:17:16.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListeOffresExternes.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Candidature\\ListeOffresExternes.cshtml",
+              "RelativeDocumentMoniker": "Views\\Candidature\\ListeOffresExternes.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Candidature\\ListeOffresExternes.cshtml",
+              "RelativeToolTip": "Views\\Candidature\\ListeOffresExternes.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T22:47:28.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListeOffresAutresRecruteurs.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Candidature\\ListeOffresAutresRecruteurs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Candidature\\ListeOffresAutresRecruteurs.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Candidature\\ListeOffresAutresRecruteurs.cshtml",
+              "RelativeToolTip": "Views\\Candidature\\ListeOffresAutresRecruteurs.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwGkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T22:27:08.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAkwIkAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T11:22:28.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Recruteur.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\Recruteur.cs",
+              "RelativeDocumentMoniker": "Models\\Recruteur.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\Recruteur.cs",
+              "RelativeToolTip": "Models\\Recruteur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T14:49:41.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250202222610_OffreViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250202222610_OffreViewModel.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250202222610_OffreViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250202222610_OffreViewModel.cs",
+              "RelativeToolTip": "Migrations\\20250202222610_OffreViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T22:26:11.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OffreViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\OffreViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\OffreViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\OffreViewModel.cs",
+              "RelativeToolTip": "Models\\OffreViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T22:25:25.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250202221155_StatistiquesCandidatures.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250202221155_StatistiquesCandidatures.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250202221155_StatistiquesCandidatures.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250202221155_StatistiquesCandidatures.cs",
+              "RelativeToolTip": "Migrations\\20250202221155_StatistiquesCandidatures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T22:11:56.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Statistiques.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Candidature\\Statistiques.cshtml",
+              "RelativeDocumentMoniker": "Views\\Candidature\\Statistiques.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Candidature\\Statistiques.cshtml",
+              "RelativeToolTip": "Views\\Candidature\\Statistiques.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T22:12:57.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "OffresController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Controllers\\OffresController.cs",
               "RelativeDocumentMoniker": "Controllers\\OffresController.cs",
               "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Controllers\\OffresController.cs",
               "RelativeToolTip": "Controllers\\OffresController.cs",
-              "ViewState": "AgIAAKEAAAAAAAAAAAAkwK0AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAuwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T22:12:42.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
+              "Title": "StatistiquesCandidatures.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\StatistiquesCandidatures.cs",
+              "RelativeDocumentMoniker": "Models\\StatistiquesCandidatures.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\StatistiquesCandidatures.cs",
+              "RelativeToolTip": "Models\\StatistiquesCandidatures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T22:11:08.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250202214815_AddStatus.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250202214815_AddStatus.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250202214815_AddStatus.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250202214815_AddStatus.cs",
+              "RelativeToolTip": "Migrations\\20250202214815_AddStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T21:48:15.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MesCandidatures.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Candidature\\MesCandidatures.cshtml",
+              "RelativeDocumentMoniker": "Views\\Candidature\\MesCandidatures.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Candidature\\MesCandidatures.cshtml",
+              "RelativeToolTip": "Views\\Candidature\\MesCandidatures.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T23:04:37.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Candidature\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Candidature\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Candidature\\Details.cshtml",
+              "RelativeToolTip": "Views\\Candidature\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T13:45:05.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwDUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T21:35:31.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Candidat.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\Candidat.cs",
+              "RelativeDocumentMoniker": "Models\\Candidat.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\Candidat.cs",
+              "RelativeToolTip": "Models\\Candidat.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwBwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T14:50:23.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T23:14:57.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T20:48:54.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Candidature.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\Candidature.cs",
               "RelativeDocumentMoniker": "Models\\Candidature.cs",
               "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\Candidature.cs",
               "RelativeToolTip": "Models\\Candidature.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA+wBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T08:49:37.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Offres.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\Offres.cs",
-              "RelativeDocumentMoniker": "Models\\Offres.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\Offres.cs",
-              "RelativeToolTip": "Models\\Offres.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA+wBUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T20:28:29.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Postuler.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Postuler.cshtml",
-              "RelativeDocumentMoniker": "Views\\offres\\Postuler.cshtml",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Postuler.cshtml",
-              "RelativeToolTip": "Views\\offres\\Postuler.cshtml",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAwDgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T23:05:30.794Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAD8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T21:35:31.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA6wBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T23:14:57.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-31T00:19:27.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAwwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T20:53:54.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\offres\\Details.cshtml",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Details.cshtml",
-              "RelativeToolTip": "Views\\offres\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T09:25:47.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\offres\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Index.cshtml",
-              "RelativeToolTip": "Views\\offres\\Index.cshtml",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAAwIwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T22:13:57.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
@@ -351,7 +540,194 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
+              "Title": "CandidatDetails.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\CandidatDetails.cs",
+              "RelativeDocumentMoniker": "Models\\CandidatDetails.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Models\\CandidatDetails.cs",
+              "RelativeToolTip": "Models\\CandidatDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T14:39:13.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Postuler.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Candidature\\Postuler.cshtml",
+              "RelativeDocumentMoniker": "Views\\Candidature\\Postuler.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Candidature\\Postuler.cshtml",
+              "RelativeToolTip": "Views\\Candidature\\Postuler.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwEIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T23:05:30.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SD.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Utility\\SD.cs",
+              "RelativeDocumentMoniker": "Utility\\SD.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Utility\\SD.cs",
+              "RelativeToolTip": "Utility\\SD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:04:35.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Utility\\EmailSender.cs",
+              "RelativeDocumentMoniker": "Utility\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Utility\\EmailSender.cs",
+              "RelativeToolTip": "Utility\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:13:09.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwv1YAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:53:54.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAlwFEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:23:19.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\offres\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Index.cshtml",
+              "RelativeToolTip": "Views\\offres\\Index.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAQwF0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T22:13:57.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20250201195853_UpdateCandidatUserIds.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250201195853_UpdateCandidatUserIds.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250201195853_UpdateCandidatUserIds.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250201195853_UpdateCandidatUserIds.cs",
+              "RelativeToolTip": "Migrations\\20250201195853_UpdateCandidatUserIds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T19:58:53.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\offres\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Create.cshtml",
+              "RelativeToolTip": "Views\\offres\\Create.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAuwDsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T16:30:32.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\offres\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Details.cshtml",
+              "RelativeToolTip": "Views\\offres\\Details.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T09:25:47.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20250201121132_CAndidatUp.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250201121132_CAndidatUp.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250201121132_CAndidatUp.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250201121132_CAndidatUp.cs",
+              "RelativeToolTip": "Migrations\\20250201121132_CAndidatUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:11:33.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20250201040305_AddCandidatureTab.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250201040305_AddCandidatureTab.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250201040305_AddCandidatureTab.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250201040305_AddCandidatureTab.cs",
+              "RelativeToolTip": "Migrations\\20250201040305_AddCandidatureTab.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T04:03:06.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250201042116_AspIdadd.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250201042116_AspIdadd.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250201042116_AspIdadd.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250201042116_AspIdadd.cs",
+              "RelativeToolTip": "Migrations\\20250201042116_AspIdadd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T04:21:17.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-13T20:45:41.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T00:19:27.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -363,55 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAuwJ0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T11:22:28.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\offres\\Create.cshtml",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Create.cshtml",
-              "RelativeToolTip": "Views\\offres\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T16:30:32.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MesCandidatures.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\MesCandidatures.cshtml",
-              "RelativeDocumentMoniker": "Views\\offres\\MesCandidatures.cshtml",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\MesCandidatures.cshtml",
-              "RelativeToolTip": "Views\\offres\\MesCandidatures.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T23:04:37.601Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAswCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:23:19.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 35,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -423,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 36,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\offres\\Edit.cshtml",
@@ -435,19 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SD.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Utility\\SD.cs",
-              "RelativeDocumentMoniker": "Utility\\SD.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Utility\\SD.cs",
-              "RelativeToolTip": "Utility\\SD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T15:04:35.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 37,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
@@ -459,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 39,
               "Title": "20250130112008_Upd.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250130112008_Upd.cs",
               "RelativeDocumentMoniker": "Migrations\\20250130112008_Upd.cs",
@@ -471,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 38,
               "Title": "20250130112008_Upd.Designer.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250130112008_Upd.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20250130112008_Upd.Designer.cs",
@@ -483,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 40,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Views\\offres\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\offres\\Delete.cshtml",
@@ -495,19 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "EmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Utility\\EmailSender.cs",
-              "RelativeDocumentMoniker": "Utility\\EmailSender.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Utility\\EmailSender.cs",
-              "RelativeToolTip": "Utility\\EmailSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T15:13:09.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 51,
               "Title": "20250115150524_AddTableSD.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250115150524_AddTableSD.cs",
               "RelativeDocumentMoniker": "Migrations\\20250115150524_AddTableSD.cs",
@@ -519,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 41,
               "Title": "20250115145101_FixProblem.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250115145101_FixProblem.cs",
               "RelativeDocumentMoniker": "Migrations\\20250115145101_FixProblem.cs",
@@ -531,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 52,
               "Title": "20250115150031_AddTableAppUser.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250115150031_AddTableAppUser.cs",
               "RelativeDocumentMoniker": "Migrations\\20250115150031_AddTableAppUser.cs",
@@ -543,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 42,
               "Title": "E-Recrutement.csproj",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\E-Recrutement.csproj",
               "RelativeDocumentMoniker": "E-Recrutement.csproj",
@@ -555,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 53,
               "Title": "20250115130630_addIdentity.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250115130630_addIdentity.cs",
               "RelativeDocumentMoniker": "Migrations\\20250115130630_addIdentity.cs",
@@ -567,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 43,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
@@ -579,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 54,
               "Title": "20250115092024_UpdateCandidature.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250115092024_UpdateCandidature.cs",
               "RelativeDocumentMoniker": "Migrations\\20250115092024_UpdateCandidature.cs",
@@ -591,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 44,
               "Title": "20250115091917_AddCandidature.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250115091917_AddCandidature.cs",
               "RelativeDocumentMoniker": "Migrations\\20250115091917_AddCandidature.cs",
@@ -603,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 45,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -615,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 48,
               "Title": "20250114161449_addTables.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250114161449_addTables.cs",
               "RelativeDocumentMoniker": "Migrations\\20250114161449_addTables.cs",
@@ -627,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 47,
               "Title": "bootstrap_super.css",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_super.css",
               "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_super.css",
@@ -639,7 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 46,
               "Title": "bootstrap_super.css",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_super.css",
               "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_super.css",
@@ -651,7 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 49,
               "Title": "20250113220811_SeedOffreTable.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250113220811_SeedOffreTable.cs",
               "RelativeDocumentMoniker": "Migrations\\20250113220811_SeedOffreTable.cs",
@@ -663,7 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 50,
               "Title": "20250113215749_addTable.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\Migrations\\20250113215749_addTable.cs",
               "RelativeDocumentMoniker": "Migrations\\20250113215749_addTable.cs",
@@ -672,18 +976,6 @@
               "ViewState": "AgIAABkAAAAAAAAAAAAQwCMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T21:57:50.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-13T20:45:41.825Z"
             }
           ]
         }

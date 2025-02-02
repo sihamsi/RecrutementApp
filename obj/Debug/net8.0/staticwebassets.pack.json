@@ -9,6 +9,34 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_ahmed_benali.pdf",
+      "PackagePath": "staticwebassets\\cvs\\cv_ahmed_benali.pdf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_fatima_elamrani.pdf",
+      "PackagePath": "staticwebassets\\cvs\\cv_fatima_elamrani.pdf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_karim_tazi.pdf",
+      "PackagePath": "staticwebassets\\cvs\\cv_karim_tazi.pdf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_mehdi_idrissi.pdf",
+      "PackagePath": "staticwebassets\\cvs\\cv_mehdi_idrissi.pdf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_omar_alaoui.pdf",
+      "PackagePath": "staticwebassets\\cvs\\cv_omar_alaoui.pdf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_salma_ziani.pdf",
+      "PackagePath": "staticwebassets\\cvs\\cv_salma_ziani.pdf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\cvs\\cv_yasmine_bennani.pdf",
+      "PackagePath": "staticwebassets\\cvs\\cv_yasmine_bennani.pdf"
+    },
+    {
       "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\SIG cours\\2emeannee\\.net\\E-Recrutement\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

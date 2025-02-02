@@ -1,0 +1,45 @@
+﻿@* ListeOffresExternes.cshtml *@
+@model List<E_Recrutement.Models.OffreExterneViewModel> 
+
+@{
+    ViewData["Title"] = "Offres externes";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">📋 Offres des autres recruteurs</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning">
+            Aucune offre disponible pour le moment.
+        </div>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            @foreach (var offre in Model)
+            {
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="card-title mb-0">@offre.Titre</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span class="badge bg-success">@offre.TypeContrat</span>
+                                <span class="badge bg-info ms-2">@offre.Salaire.ToString("N0") MAD</span>
+                            </div>
+                            <h6 class="text-primary">
+                                <i class="fas fa-building"></i> @offre.Entreprise
+                            </h6>
+                            <div class="mt-2">
+                                <i class="fas fa-envelope"></i> @offre.Email<br>
+                                <i class="fas fa-phone"></i> @offre.Telephone
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

@@ -9,6 +9,8 @@ namespace E_Recrutement.Data
 {
     public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
+        internal object candidature;
+
         public DbSet<Offres> Offres  { get; set; }
         public DbSet<Recruteur> Recruteurs { get; set; }
         public DbSet<Candidat> Candidats { get; set; }
@@ -21,6 +23,15 @@ namespace E_Recrutement.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Candidature>()
+                .HasOne(c => c.Candidat)
+                .WithMany()
+                .HasForeignKey(c => c.IdCandidat);
+
+            modelBuilder.Entity<Candidature>()
+                .HasOne(c => c.Offre)
+                .WithMany()
+                .HasForeignKey(c => c.IdOffre);
 
             modelBuilder.Entity<Offres>().HasData(
                 new Offres
@@ -74,6 +85,10 @@ namespace E_Recrutement.Data
                     Remuneration = 25000
                 }
             );
+            
+
+
+
         }
 
     }

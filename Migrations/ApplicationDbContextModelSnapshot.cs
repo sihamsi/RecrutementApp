@@ -33,6 +33,10 @@ namespace E_Recrutement.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("int");
 
+                    b.Property<string>("AspNetUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("CV")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -43,6 +47,9 @@ namespace E_Recrutement.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("IdUser")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nom")
@@ -56,13 +63,17 @@ namespace E_Recrutement.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Titre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("IdCandidat");
 
-                    b.ToTable("Candidats", (string)null);
+                    b.ToTable("Candidats");
                 });
 
             modelBuilder.Entity("E_Recrutement.Models.Candidature", b =>
@@ -92,7 +103,7 @@ namespace E_Recrutement.Migrations
 
                     b.HasIndex("IdOffre");
 
-                    b.ToTable("Candidatures", (string)null);
+                    b.ToTable("Candidatures");
                 });
 
             modelBuilder.Entity("E_Recrutement.Models.Offres", b =>
@@ -127,7 +138,7 @@ namespace E_Recrutement.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Offres", (string)null);
+                    b.ToTable("Offres");
 
                     b.HasData(
                         new
@@ -204,7 +215,7 @@ namespace E_Recrutement.Migrations
 
                     b.HasKey("IdRecruteur");
 
-                    b.ToTable("Recruteurs", (string)null);
+                    b.ToTable("Recruteurs");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

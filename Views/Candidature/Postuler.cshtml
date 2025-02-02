@@ -1,0 +1,75 @@
+﻿@model E_Recrutement.Models.Candidature
+
+@{
+    ViewData["Title"] = "Postuler à une Offre";
+}
+
+<h2>Postuler à l'Offre</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+<form asp-action="Postuler" method="post" enctype="multipart/form-data" id="postulerForm">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="IdOffre" />
+
+    <div class="form-group">
+        <label asp-for="Candidat.Nom" class="control-label">Nom</label>
+        <input asp-for="Candidat.Nom" class="form-control" required />
+        <span asp-validation-for="Candidat.Nom" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Candidat.Prenom" class="control-label">Prénom</label>
+        <input asp-for="Candidat.Prenom" class="form-control" required />
+        <span asp-validation-for="Candidat.Prenom" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Candidat.Email" class="control-label">Email</label>
+        <input asp-for="Candidat.Email" type="email" class="form-control" required />
+        <span asp-validation-for="Candidat.Email" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label asp-for="Candidat.Age" class="control-label">Âge</label>
+        <input asp-for="Candidat.Age" type="number" class="form-control" required min="18" max="99" />
+        <span asp-validation-for="Candidat.Age" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Candidat.Diplome" class="control-label">Diplôme</label>
+        <select asp-for="Candidat.Diplome" class="form-control" required>
+            <option value="">Sélectionner un diplôme</option>
+            <option value="Deug">Deug</option>
+            <option value="Licence">Licence</option>
+            <option value="Master">Master</option>
+            <option value="Ingénieur">Ingénieur</option>
+        </select>
+        <span asp-validation-for="Candidat.Diplome" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Candidat.CVFile" class="control-label">CV (PDF uniquement)</label>
+        <input type="file" asp-for="Candidat.CVFile" class="form-control-file" accept=".pdf" required />
+        <span asp-validation-for="Candidat.CVFile" class="text-danger"></span>
+    </div>
+
+    <button type="submit" id="submitBtn" class="btn btn-primary">Postuler maintenant</button>
+</form>
+
+@section Scripts {
+    <script>
+        document.getElementById('postulerForm').addEventListener('submit', function () {
+            const btn = document.getElementById('submitBtn');
+            btn.disabled = true;
+            btn.innerHTML = 'Envoi en cours...';
+        });
+    </script>
+}

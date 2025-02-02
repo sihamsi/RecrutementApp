@@ -112,7 +112,7 @@
                         @if (User.IsInRole("Candidat"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link" asp-controller="Offres" asp-action="MesCandidatures">
+                                <a class="nav-link" asp-controller="Candidature" asp-action="MesCandidatures">
                                     <i class="fas fa-file-alt me-1"></i>Mes Candidatures
                                 </a>
                             </li>
@@ -120,11 +120,31 @@
                         @if (User.IsInRole("Recruteur"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link" asp-controller="Offres" asp-action="MesCandidatures">
+                                <a class="nav-link" asp-controller="Candidature" asp-action="MesCandidatures">
                                     <i class="fas fa-history me-1"></i>Historique
                                 </a>
                             </li>
                         }
+                        @if (User.IsInRole("Recruteur"))
+                        {
+                            <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Candidature" asp-action="Statistiques">📊 Statistiques</a>
+                        </li>
+                        }
+
+                        @if (User.IsInRole("Recruteur"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Candidature" asp-action="ListeOffresExternes">
+                                    <i class="fas fa-external-link-alt"></i> Offres externes
+                                </a>
+                            </li>
+                        }
+
+                        
+                        
+
+                        
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>

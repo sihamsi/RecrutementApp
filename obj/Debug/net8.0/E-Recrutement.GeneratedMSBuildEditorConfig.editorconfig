@@ -188,6 +188,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/HP/OneDrive/Desktop/SIG cours/2emeannee/.net/E-Recrutement/Views/Candidature/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXR1cmVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/OneDrive/Desktop/SIG cours/2emeannee/.net/E-Recrutement/Views/Candidature/ListeOffresAutresRecruteurs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXR1cmVcTGlzdGVPZmZyZXNBdXRyZXNSZWNydXRldXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/OneDrive/Desktop/SIG cours/2emeannee/.net/E-Recrutement/Views/Candidature/ListeOffresExternes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXR1cmVcTGlzdGVPZmZyZXNFeHRlcm5lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/OneDrive/Desktop/SIG cours/2emeannee/.net/E-Recrutement/Views/Candidature/MesCandidatures.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXR1cmVcTWVzQ2FuZGlkYXR1cmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/OneDrive/Desktop/SIG cours/2emeannee/.net/E-Recrutement/Views/Candidature/Postuler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXR1cmVcUG9zdHVsZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/OneDrive/Desktop/SIG cours/2emeannee/.net/E-Recrutement/Views/Candidature/Statistiques.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXR1cmVcU3RhdGlzdGlxdWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HP/OneDrive/Desktop/SIG cours/2emeannee/.net/E-Recrutement/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -214,14 +238,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/HP/OneDrive/Desktop/SIG cours/2emeannee/.net/E-Recrutement/Views/offres/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb2ZmcmVzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/HP/OneDrive/Desktop/SIG cours/2emeannee/.net/E-Recrutement/Views/offres/MesCandidatures.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb2ZmcmVzXE1lc0NhbmRpZGF0dXJlcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/HP/OneDrive/Desktop/SIG cours/2emeannee/.net/E-Recrutement/Views/offres/Postuler.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb2ZmcmVzXFBvc3R1bGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/HP/OneDrive/Desktop/SIG cours/2emeannee/.net/E-Recrutement/Views/Shared/Error.cshtml]

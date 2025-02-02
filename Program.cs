@@ -1,5 +1,7 @@
 using E_Recrutement.Data;
+using E_Recrutement.Utility; // For EmailSender and SD
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -42,6 +44,9 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("RequireRecruteurRole", policy => policy.RequireRole("Recruteur"));
 });
 
+// Register IEmailSender with our EmailSender implementation
+builder.Services.AddTransient<IEmailSender, EmailSender>();
+
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
@@ -62,6 +67,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
 
 app.MapControllerRoute(
     name: "default",

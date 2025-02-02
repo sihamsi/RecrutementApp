@@ -1,0 +1,108 @@
+﻿@model StatistiquesCandidatures
+@{
+    ViewData["Title"] = "Statistiques des Candidatures";
+}
+
+<div class="container py-5">
+    <h2 class="mb-4">📊 Statistiques des Candidatures</h2>
+
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card bg-primary text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Total</h5>
+                    <p class="display-4">@Model.TotalCandidatures</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-success text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Acceptées</h5>
+                    <p class="display-4">@Model.NombreAcceptees</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-warning text-dark">
+                <div class="card-body">
+                    <h5 class="card-title">En attente</h5>
+                    <p class="display-4">@Model.NombreEnAttente</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-danger text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Refusées</h5>
+                    <p class="display-4">@Model.NombreRefusees</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5>📈 Répartition par Secteur</h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="secteurChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>📋 Types de Contrat</h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="contratChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Secteur Chart
+        new Chart(document.getElementById('secteurChart'), {
+            type: 'bar',
+            data: {
+                labels: @Json.Serialize(Model.CandidaturesParSecteur.Keys),
+                datasets: [{
+                    label: 'Candidatures par Secteur',
+                    data: @Json.Serialize(Model.CandidaturesParSecteur.Values),
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.7)',
+                        'rgba(54, 162, 235, 0.7)',
+                        'rgba(255, 206, 86, 0.7)',
+                        'rgba(75, 192, 192, 0.7)',
+                        'rgba(153, 102, 255, 0.7)'
+                    ]
+                }]
+            }
+        });
+
+        // Contrat Chart
+        new Chart(document.getElementById('contratChart'), {
+            type: 'pie',
+            data: {
+                labels: @Json.Serialize(Model.CandidaturesParTypeContrat.Keys),
+                datasets: [{
+                    label: 'Types de Contrat',
+                    data: @Json.Serialize(Model.CandidaturesParTypeContrat.Values),
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.7)',
+                        'rgba(54, 162, 235, 0.7)',
+                        'rgba(255, 206, 86, 0.7)'
+                    ]
+                }]
+            }
+        });
+    </script>
+}
